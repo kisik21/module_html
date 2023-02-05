@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Write a review</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label>
+                Имя
+                <input type="text" placeholder="Введите имя" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                Email
+                <input type="email" placeholder="example@gmail.com" required>
+            </label>
+        </div>
+        <div>
+            Ваша оценка:
+            <label>
+                1
+                <input type="radio" name="ranking" value="one">
+            </label>
+            <label>
+                2
+                <input type="radio" name="ranking" value="two">
+            </label>
+            <label>
+                3
+                <input type="radio" name="ranking" value="three">
+            </label>
+            <label>
+                4
+                <input type="radio" checked name="ranking" value="four">
+            </label>
+            <label>
+                5
+                <input type="radio" name="ranking" value="five">
+            </label>
+        </div>
+        <div>
+            <p>Понравилось?</p>
+            <label>
+                Понравилось
+                <input type="radio" name="size" value="Like">
+            </label>
+            <label>
+                Не понравилось
+                <input type="radio" name="size" value="Dislike">
+            </label>
+        </div>
+        <label>
+            Что вам понравилось:
+        </label> 
+        <p>
+            <textarea name="text1" id="text1" placeholder="Ваше мнение.." cols="40" rows="6" required></textarea>
+        </p>    
+        <label>
+            Что вам не понравилось:
+        </label> 
+        <p>
+            <textarea name="text2" id="text2" placeholder="Ваше мнение.." cols="40" rows="6" required></textarea>
+        </p>     
+        <div>
+            <button>Отправить</button>
+        </div>
+    </form>
+</body>
+</html>
