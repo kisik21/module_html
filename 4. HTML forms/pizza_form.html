@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Order pizza</title>
+    </head>
+    <body>
+        <form name="pizza" action="#" method="GET">
+            <label>
+                <p>Ваше имя:</p>
+                <input type="text" placeholder="Введите имя" name="name" required>
+            </label>
+            <label>
+                <p>Адрес доставки:</p>
+                <input type="text" placeholder="Введите адрес" name="adress" required>
+            </label>
+            <label for="pizza">
+                <p>Выберите пиццу:</p>
+            </label>
+            <select id="pizza" name="pizza">
+                <option value="1">Маргарита</option>
+                <option value="2">Пеперони</option>
+                <option value="3">Гавайская</option>
+                <option value="4"selected>Карбонара</option>
+                <option value="5">Вега</option>
+            </select>
+            <div>
+                <p>Укажите размер:</p>
+                <label>
+                    L
+                    <input type="radio" name="size" value="L">
+                </label>
+                <label>
+                    XL
+                    <input type="radio" name="size" value="XL">
+                </label>
+                <label>
+                    XXL
+                    <input type="radio"  name="size" value="XXL" checked>
+                </label>
+                <label>
+                    XXXL
+                    <input type="radio" name="size" value="XXXL">
+                </label>
+            </div>
+            <div>
+                <label for="cheese">Дополнительный сыр:</label>
+                <input id="cheese" type="checkbox" checked>
+            </div>
+            <div> <!--если использовать <p> будет отступ от предыдущего блока-->
+                <button>Отправить</button>
+            </div>
+        </form>
+    </body>
+</html>
