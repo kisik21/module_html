@@ -5,7 +5,7 @@
     <title>Write a review</title>
 </head>
 <body>
-    <form action="#">
+    <form name="review" action="#" method="GET">
         <div>
             <label>
                 Имя
@@ -52,18 +52,18 @@
                 <input type="radio" name="size" value="Dislike">
             </label>
         </div>
-        <label>
+        <label for="text1">
             Что вам понравилось:
         </label> 
-        <p>
+        <div>
             <textarea name="text1" id="text1" placeholder="Ваше мнение.." cols="40" rows="6" required></textarea>
-        </p>    
-        <label>
+        </div>    
+        <label for="text2">
             Что вам не понравилось:
         </label> 
-        <p>
+        <div>
             <textarea name="text2" id="text2" placeholder="Ваше мнение.." cols="40" rows="6" required></textarea>
-        </p>     
+        </div>     
         <div>
             <button>Отправить</button>
         </div>
