@@ -1,0 +1,30 @@
+.fonts {
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Georgia', 'Times New Roman', 'serif'; 
+    font-weight: 400;
+    color: red;
+    letter-spacing: 1px;
+    background-color: grey;
+    text-align: center;
+
+    border: 5px solid red;
+    border-width: 6px;
+    border-radius: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    color: yellow;
+    word-spacing: 0.2px;
+    background: red;
+}
+
+.usualtext {
+    color:  white;
+    font-weight: 300;
+}
+
+.link {
+    text-decoration: none;
+}
