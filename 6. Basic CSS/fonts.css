@@ -3,25 +3,22 @@
     line-height: 1.2;
     font-family: 'Georgia', 'Times New Roman', 'serif'; 
     font-weight: 400;
-    color: red;
     letter-spacing: 1px;
-    background-color: grey;
+    background-color: #808080;
     text-align: center;
-
-    border: 5px solid red;
-    border-width: 6px;
+    border: 6px solid #ff0000;
     border-radius: 10px;
 }
 
 .uppercase {
     text-transform: uppercase;
-    color: yellow;
+    color: #ffff00;
     word-spacing: 0.2px;
-    background: red;
+    background: #ff0000;
 }
 
 .usualtext {
-    color:  white;
+    color:  #ffffff;
     font-weight: 300;
 }
 
