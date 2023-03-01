@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.flex_item {
+    box-sizing:border-box;
+    height: 100px;
+    width: 160px;
+    background-color: #d2bd8d;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #e60c0c; 
+}
+
+.flex_item_big {
+    box-sizing:border-box;
+    height: 200px;
+    width: 160px;
+    background-color: #d2bd8d;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #e60c0c;
+}
+
+.flex_item_big_flex {
+    box-sizing:border-box;
+    height: 200px;
+    width: 160px;
+    background-image: url(https://www.meme-arsenal.com/memes/d854cdd336db1b90c7bafeed388ff490.jpg);
+    background-size: 160px 200px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #e60c0c;
+}
+
+.flex_item:hover, .flex_item_big:hover, .flex_item_big_flex:hover {
+    border-color: #ffff00;
+} 
